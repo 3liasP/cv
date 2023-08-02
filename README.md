@@ -1,8 +1,8 @@
 # My CV - Personal CV Website
 
-![GitHub repo size](https://img.shields.io/github/repo-size/your-username/cv-website)
-![GitHub stars](https://img.shields.io/github/stars/your-username/cv-website?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your-username/cv-website?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/3liasP/cv)
+![GitHub stars](https://img.shields.io/github/stars/3liasP/cv?style=social)
+![GitHub forks](https://img.shields.io/github/forks/3liasP/cv?style=social)
 
 ## Description
 
