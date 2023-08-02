@@ -19,7 +19,7 @@ Check out the live demo of the CV website [here](https://your-username.github.io
 - Responsive design for various devices and screen sizes
 - Dark mode switch for enhanced user experience
 - Smooth animations for a visually appealing presentation
-- Sidebar navigation for easy access to sections
+- Top-bar navigation for easy access to sections
 - Showcase of skills, experience, and projects
 - Customizable and easy to update with your own content
 
