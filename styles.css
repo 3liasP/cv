@@ -40,6 +40,12 @@ body.dark-mode h4 {
 
 body.dark-mode i {
   color: var(--pine-green);
+  background-color: transparent;
+}
+
+body.dark-mode b {
+  font-weight: bold;
+  color: var(--avocado);
 }
 
 
@@ -62,24 +68,50 @@ header h1 {
   border-bottom: 2px solid var(--dun); /* Add line under h1 */
 }
 
-header ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+/* Hamburger icon styles */
+.hamburger-icon {
+  display: none;
+  cursor: pointer;
 }
 
-header li {
-  display: inline-block;
-  margin-right: 20px;
+.bar {
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+  margin: 6px 0;
 }
 
-header a {
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+/* Show the navigation items as a column on mobile */
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    background-color: var(--dark-moss-green);
+    padding: 10px 0;
+    z-index: 999; /* Ensure the navigation stays on top of other content */
+    transition: transform 0.3s, opacity 0.3s;
+  }
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.nav-item a {
   color: var(--avocado);
   text-decoration: none;
   transition: color 0.2s;
 }
 
-header a:hover {
+.nav-item a:hover {
   color: var(--pine-green);
 }
 
@@ -258,4 +290,38 @@ footer {
 /* Hide the moon icon in light mode */
 .dark-mode-switch input[type="checkbox"] + label i:nth-child(2) {
   display: none;
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--dark-moss-green);
+  color: var(--dun);
+  border-radius: 50%;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+#backToTop.active {
+  opacity: 1;
+  pointer-events: auto;
+  background-color: var(--dark-moss-green);
+}
+
+/* Show the back to top button on mobile */
+@media screen and (max-width: 768px) {
+  #backToTop {
+    bottom: 10px;
+    right: 0px;
+    transform: translateX(-50%);
+  }
 }

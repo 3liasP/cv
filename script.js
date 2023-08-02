@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const navLinks = document.querySelectorAll('nav ul li a');
+  const navLinks = document.querySelectorAll('.nav-item a');
 
   // Smooth scrolling for navigation links
   navLinks.forEach(link => {
@@ -45,6 +45,25 @@ if (darkModePref === "true") {
   darkModeToggle.checked = true;
 }
 
+// Back to Top button
+const backToTopButton = document.getElementById("backToTop");
+
+backToTopButton.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
+function handleScroll() {
+  if (window.scrollY > 200) {
+    backToTopButton.classList.add("active");
+  } else {
+    backToTopButton.classList.remove("active");
+  }
+}
+
+window.addEventListener("scroll", handleScroll);
 
   // Run checkIfInView on page load and scroll events
   window.addEventListener('load', checkIfInView);
