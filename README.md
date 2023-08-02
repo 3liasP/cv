@@ -12,7 +12,7 @@ Explore my journey, achievements, and projects in an easy-to-navigate layout. Th
 
 ## Live Demo
 
-Check out the live demo of the CV website [here](https://your-username.github.io/cv).
+Check out the live demo of the CV website [here](https://3liasP.github.io/cv).
 
 ## Features
 
