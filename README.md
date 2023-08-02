@@ -4,6 +4,8 @@
 ![GitHub stars](https://img.shields.io/github/stars/3liasP/cv?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/3liasP/cv?style=social)
 
+![CV Website Screenshot](assets/img/cv-header.png)
+
 ## Description
 
 This is a sleek personal CV website showcasing my skills, experience, and projects. The website features a vibrant color scheme, smooth animations, and a user-friendly top-bar for easy navigation. The dark mode switch provides a stylish viewing experience, making it a great fit for any context.
