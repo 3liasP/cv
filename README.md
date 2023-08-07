@@ -29,7 +29,7 @@ Check out the live demo of the CV website [here](https://3liasP.github.io/cv).
 
 1. Fork the repository to create your copy.
 2. Clone the repository to your local machine.
-3. Customize the content in the HTML and SCSS/CSS files.
+3. Customize the content in the HTML and CSS files.
 4. Replace the placeholder images with your own or add new ones.
 5. Update the links in the sidebar to your social profiles and projects.
 6. Commit and push your changes to your GitHub repository.
